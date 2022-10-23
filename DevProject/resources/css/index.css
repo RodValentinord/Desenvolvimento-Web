@@ -1,0 +1,64 @@
+.navbar{
+   background-color: white;
+   position: fixed; 
+   width: 100%;
+   top: 0;
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+
+}
+.banner{
+    background-color: #4d00ff;
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+#small-gritty{
+    height: 250px;
+    width: 300px;
+    filter: drop-shadow(1px -5px 5px yellow);
+}
+
+#gritter{
+    color: blue;
+    font-size: 100px;
+    
+}
+.bold{
+    font-weight: 900;
+}
+a.blue{
+    color: blue;
+}
+
+#greets ul{
+    list-style-type: none;
+    
+}
+
+.gritter-section{
+    padding: 20px 50px;
+
+}
+
+.avatar{
+    background-image: url(../images/Goku-PNG-768x1024.png);
+    background-size:cover;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border-style: groove;
+    display: inline-block;
+    vertical-align: middle;
+    
+    
+}
