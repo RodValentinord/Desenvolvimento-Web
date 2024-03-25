@@ -1,0 +1,1340 @@
+{"fields": {"event_batch_index": {"int_value": "266000"}, "timestamp": {"string_value": "2023-08-23T14:12:25.605Z"},
+            "event_batch_uuid": {"string_value": "d2a18e4e-1055-4ea7-a219-e410efe39075"}, "export_entry": {
+        "map_value": {"fields": {"batch_id": {"string_value": "czXYQH1b0AYRkQ"},
+                                 "updated_at": {"string_value": "2023-08-23T11:08:52.161-03:00"},
+                                 "account_id": {"int_value": "69301"}, "user_id": {"int_value": "956878"},
+                                 "signature": {
+                                     "string_value": "718a7b3e99015d9cc7dad4bbcf6fcf27487ecba5aa8b19cbbc7f60af98c4646b"},
+                                 "status_code": {"int_value": "1"}, "file_url": {},
+                                 "id": {"string_value": "d2a18e4e-1055-4ea7-a219-e410efe39075"}, "metadata": {
+                "map_value": {"fields": {"segmentation_list_id": {"int_value": "1341167"},
+                                         "notifier_class": {"string_value": "Export::EmailNotifier"}, "filename": {
+                        "string_value": "rd-gav-resorts-conversoes-leads-estagio-no-funil"}, "fields_from_schema": {
+                        "array_value": {"value_type": "MAP", "values": [{"map_value": {
+                            "fields": {"name": {"string_value": "created_at"}, "default_field": {"bool_value": true},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "created_at"}]}},
+                                       "label": {"string_value": "Data da Conversão"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "email"}, "default_field": {"bool_value": true},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "email"},
+                                                                              {"string_value": "email_lead"},
+                                                                              {"string_value": "email"},
+                                                                              {"string_value": "your-email"},
+                                                                              {"string_value": "e-mail"}]}},
+                                       "label": {"string_value": "Email"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "conversion_identifier"},
+                                       "default_field": {"bool_value": true}, "aliases": {
+                                    "array_value": {"value_type": "STRING",
+                                                    "values": [{"string_value": "conversion_identifier"},
+                                                               {"string_value": "identificador"}]}},
+                                       "label": {"string_value": "Identificador"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "import_token"}, "default_field": {"bool_value": true},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "import_token"}]}},
+                                       "label": {"string_value": "Token de importação"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "source_name"}, "default_field": {"bool_value": true},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "source_name"}]}},
+                                       "label": {"string_value": "Origem da Conversão"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "traffic_source"},
+                                       "default_field": {"bool_value": true}, "aliases": {
+                                    "array_value": {"value_type": "STRING",
+                                                    "values": [{"string_value": "traffic_source"}]}},
+                                       "label": {"string_value": "Origem da Conversão - Detalhes"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "ip"}, "default_field": {"bool_value": true},
+                                       "aliases": {
+                                           "array_value": {"value_type": "STRING", "values": [{"string_value": "ip"}]}},
+                                       "label": {"string_value": "IP"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "name"}, "default_field": {"bool_value": true},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "name"},
+                                                                              {"string_value": "nome"},
+                                                                              {"string_value": "name"},
+                                                                              {"string_value": "firstname"},
+                                                                              {"string_value": "your-name"},
+                                                                              {"string_value": "primeiro_nome"},
+                                                                              {"string_value": "nombre"},
+                                                                              {"string_value": "nomecompleto"}]}},
+                                       "label": {"string_value": "Nome"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "job_title"}, "default_field": {"bool_value": true},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "job_title"},
+                                                                              {"string_value": "cargo"},
+                                                                              {"string_value": "job_title"}]}},
+                                       "label": {"string_value": "Cargo"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "company_name"}, "default_field": {"bool_value": true},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "company_name"},
+                                                                              {"string_value": "empresa"},
+                                                                              {"string_value": "company"}]}},
+                                       "label": {"string_value": "Empresa"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "personal_phone"},
+                                       "default_field": {"bool_value": true}, "aliases": {
+                                    "array_value": {"value_type": "STRING",
+                                                    "values": [{"string_value": "personal_phone"},
+                                                               {"string_value": "personal_phone"},
+                                                               {"string_value": "telefone"}]}},
+                                       "label": {"string_value": "Telefone"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "mobile_phone"}, "default_field": {"bool_value": true},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "mobile_phone"},
+                                                                              {"string_value": "mobile_phone"},
+                                                                              {"string_value": "celular"},
+                                                                              {"string_value": "ddd-celular"}]}},
+                                       "label": {"string_value": "Celular"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "facebook"}, "default_field": {"bool_value": true},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "facebook"}]}},
+                                       "label": {"string_value": "Facebook"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "twitter"}, "default_field": {"bool_value": true},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "twitter"}]}},
+                                       "label": {"string_value": "Twitter"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "linkedin"}, "default_field": {"bool_value": true},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "linkedin"}]}},
+                                       "label": {"string_value": "Linkedin"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "website"}, "default_field": {"bool_value": true},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "website"}]}},
+                                       "label": {"string_value": "Website"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "city"}, "default_field": {"bool_value": true},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "city"},
+                                                                              {"string_value": "city_id"},
+                                                                              {"string_value": "city"},
+                                                                              {"string_value": "cidade"}]}},
+                                       "label": {"string_value": "Cidade"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "state"}, "default_field": {"bool_value": true},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "state"},
+                                                                              {"string_value": "uf"},
+                                                                              {"string_value": "estado"},
+                                                                              {"string_value": "estado_"},
+                                                                              {"string_value": "open_state"}]}},
+                                       "label": {"string_value": "Estado"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "country"}, "default_field": {"bool_value": true},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "country"},
+                                                                              {"string_value": "país"}]}},
+                                       "label": {"string_value": "País"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "company_site"}, "default_field": {"bool_value": true},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "company_site"}]}},
+                                       "label": {"string_value": "Site da Empresa"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "company_phone"}, "default_field": {"bool_value": true},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "company_phone"},
+                                                                              {"string_value": "company_phone"}]}},
+                                       "label": {"string_value": "Telefone da empresa"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "company_address"},
+                                       "default_field": {"bool_value": true}, "aliases": {
+                                    "array_value": {"value_type": "STRING",
+                                                    "values": [{"string_value": "company_address"},
+                                                               {"string_value": "endereco-empresa"},
+                                                               {"string_value": "endereco-da-empresa"},
+                                                               {"string_value": "company_address"}]}},
+                                       "label": {"string_value": "Endereço da Empresa"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "company_size"}, "default_field": {"bool_value": true},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "company_size"},
+                                                                              {"string_value": "numero_funcionarios"}, {
+                                                                                  "string_value": "numero-de-funcionarios"},
+                                                                              {"string_value": "company_size"}]}},
+                                       "label": {"string_value": "Tamanho da Empresa"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "conversion_payload"},
+                                       "default_field": {"bool_value": true}, "aliases": {
+                                    "array_value": {"value_type": "STRING",
+                                                    "values": [{"string_value": "conversion_payload"}]}},
+                                       "label": {"string_value": "Outras Informações"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "bio"}, "default_field": {"bool_value": true},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "bio"}]}},
+                                       "label": {"string_value": "Bio"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "google_analytics_client_id"},
+                                       "default_field": {"bool_value": true}, "aliases": {
+                                    "array_value": {"value_type": "STRING",
+                                                    "values": [{"string_value": "google_analytics_client_id"}]}},
+                                       "label": {"string_value": "Client ID do Google Analytics"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "birthdate"}, "default_field": {"bool_value": true},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "birthdate"}]}},
+                                       "label": {"string_value": "Data de nascimento"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "device"}, "default_field": {"bool_value": true},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "device"}]}},
+                                       "label": {"string_value": "Dispositivo"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "conversion_domain"},
+                                       "default_field": {"bool_value": true}, "aliases": {
+                                    "array_value": {"value_type": "STRING",
+                                                    "values": [{"string_value": "conversion_domain"}]}},
+                                       "label": {"string_value": "Domínio da Conversão"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "asset_id"}, "default_field": {"bool_value": true},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "asset_id"}]}},
+                                       "label": {"string_value": "ID do Asset"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "conversion_url"},
+                                       "default_field": {"bool_value": true}, "aliases": {
+                                    "array_value": {"value_type": "STRING",
+                                                    "values": [{"string_value": "conversion_url"}]}},
+                                       "label": {"string_value": "URL da Conversão"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "user_agent"}, "default_field": {"bool_value": true},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "user_agent"}]}},
+                                       "label": {"string_value": "User Agent"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "cf_campanha"}, "default_field": {"bool_value": false},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "campanha"}]}},
+                                       "label": {"string_value": "Campanha"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "cf_gvc_ativo"}, "default_field": {"bool_value": false},
+                                       "aliases": {"array_value": {"value_type": "STRING",
+                                                                   "values": [{"string_value": "gvc ativo"}]}},
+                                       "label": {"string_value": "Cliente Vacation Club ativo"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "cf_gvc_cancelado"},
+                                       "default_field": {"bool_value": false}, "aliases": {
+                                    "array_value": {"value_type": "STRING",
+                                                    "values": [{"string_value": "gvc cancelado"}]}},
+                                       "label": {"string_value": "Cliente Vacation Club cancelado"}}}}, {"map_value": {
+                            "fields": {"name": {"string_value": "cf_como_prefere_ser_atendido"},
+                                       "default_field": {"bool_value": false}, "aliases": {
+                                    "array_value": {"value_type": "STRING",
+                                                    "values": [{"string_value": "como prefere ser atendido?"}]}},
+                                       "label": {"string_value": "Como prefere ser atendido?"}}}}, {"map_value": {
+                            "fields": {
+                                "name": {"string_value": "cf_conhece_ou_ja_ouviu_falar_do_salinas_premium_resort"},
+                                "default_field": {"bool_value": false}, "aliases": {
+                                    "array_value": {"value_type": "STRING", "values": [
+                                        {"string_value": "conhece ou já ouviu falar da gav resorts?"}]}},
+                                "label": {"string_value": "Conhece ou já ouviu falar da GAV Resorts?"}}}}, {
+                                                                            "map_value": {"fields": {"name": {
+                                                                                "string_value": "cf_consultor"},
+                                                                                                     "default_field": {
+                                                                                                         "bool_value": false},
+                                                                                                     "aliases": {
+                                                                                                         "array_value": {
+                                                                                                             "value_type": "STRING",
+                                                                                                             "values": [
+                                                                                                                 {
+                                                                                                                     "string_value": "consultor"}]}},
+                                                                                                     "label": {
+                                                                                                         "string_value": "Consultor"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_cotas_canceladas"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "cotas canceladas"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "cotas canceladas"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_cotas_canceladas_ser"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "cotas canceladas ser"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "cotas canceladas ser"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_cotas_canceladas_spm"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "cotas canceladas spm"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "cotas canceladas spm"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_cotas_canceladas_spr"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "cotas canceladas spr"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "cotas canceladas spr"}}}},
+                                                                        {"map_value": {"fields": {
+                                                                            "name": {"string_value": "cf_cpf"},
+                                                                            "default_field": {"bool_value": false},
+                                                                            "aliases": {
+                                                                                "array_value": {"value_type": "STRING",
+                                                                                                "values": [{
+                                                                                                               "string_value": "cpf"}]}},
+                                                                            "label": {"string_value": "CPF"}}}}, {
+                                                                            "map_value": {"fields": {"name": {
+                                                                                "string_value": "cf_codigo_1_chance"},
+                                                                                                     "default_field": {
+                                                                                                         "bool_value": false},
+                                                                                                     "aliases": {
+                                                                                                         "array_value": {
+                                                                                                             "value_type": "STRING",
+                                                                                                             "values": [
+                                                                                                                 {
+                                                                                                                     "string_value": "código 1 chance"}]}},
+                                                                                                     "label": {
+                                                                                                         "string_value": "Código 1 chance"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_codigo_1_chance_0"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "código 1º chance"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Código 1º Chance"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_codigo_2_chance"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "código 2ª chance"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Código 2ª Chance"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_codigo_pessoa"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "código pessoa"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Código da Pessoa no UAU"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_codigo_de_validacao"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "código de validação"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Código de Validação"}}}},
+                                                                        {"map_value": {"fields": {
+                                                                            "name": {"string_value": "cf_conjuge"},
+                                                                            "default_field": {"bool_value": false},
+                                                                            "aliases": {
+                                                                                "array_value": {"value_type": "STRING",
+                                                                                                "values": [{
+                                                                                                               "string_value": "cônjuge"}]}},
+                                                                            "label": {"string_value": "Cônjuge"}}}}, {
+                                                                            "map_value": {"fields": {
+                                                                                "name": {"string_value": "cf_datas"},
+                                                                                "default_field": {"bool_value": false},
+                                                                                "aliases": {"array_value": {
+                                                                                    "value_type": "STRING", "values": [
+                                                                                        {"string_value": "datas"}]}},
+                                                                                "label": {"string_value": "Datas"}}}}, {
+                                                                            "map_value": {"fields": {"name": {
+                                                                                "string_value": "cf_departamento"},
+                                                                                                     "default_field": {
+                                                                                                         "bool_value": false},
+                                                                                                     "aliases": {
+                                                                                                         "array_value": {
+                                                                                                             "value_type": "STRING",
+                                                                                                             "values": [
+                                                                                                                 {
+                                                                                                                     "string_value": "departamento"}]}},
+                                                                                                     "label": {
+                                                                                                         "string_value": "Departamento"}}}},
+                                                                        {"map_value": {"fields": {
+                                                                            "name": {"string_value": "cf_endereco"},
+                                                                            "default_field": {"bool_value": false},
+                                                                            "aliases": {
+                                                                                "array_value": {"value_type": "STRING",
+                                                                                                "values": [{
+                                                                                                               "string_value": "endereço"}]}},
+                                                                            "label": {"string_value": "Endereço"}}}}, {
+                                                                            "map_value": {"fields": {"name": {
+                                                                                "string_value": "cf_estabelecimento_do_cupom"},
+                                                                                                     "default_field": {
+                                                                                                         "bool_value": false},
+                                                                                                     "aliases": {
+                                                                                                         "array_value": {
+                                                                                                             "value_type": "STRING",
+                                                                                                             "values": [
+                                                                                                                 {
+                                                                                                                     "string_value": "estabelecimento do cupom"}]}},
+                                                                                                     "label": {
+                                                                                                         "string_value": "Estabelecimento do Cupom"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_estabelecimento_parceiro"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "estabelecimento parceiro"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Estabelecimento Parceiro"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_estado_civil_2"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "estado civil 2"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Estado Civil"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_estado_civil_0"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "estado civil"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Estado Civil"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_estado_civil_3"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "estado civil:"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Estado civil:"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_estado_civil_1"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "estado civil:"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Estado Civil:"}}}},
+                                                                        {"map_value": {"fields": {
+                                                                            "name": {"string_value": "cf_estado_civil"},
+                                                                            "default_field": {"bool_value": false},
+                                                                            "aliases": {
+                                                                                "array_value": {"value_type": "STRING",
+                                                                                                "values": [{
+                                                                                                               "string_value": "estado cívil"}]}},
+                                                                            "label": {
+                                                                                "string_value": "Estado Cívil"}}}}, {
+                                                                            "map_value": {"fields": {"name": {
+                                                                                "string_value": "cf_plug_funnel_stage"},
+                                                                                                     "default_field": {
+                                                                                                         "bool_value": false},
+                                                                                                     "aliases": {
+                                                                                                         "array_value": {
+                                                                                                             "value_type": "STRING",
+                                                                                                             "values": [
+                                                                                                                 {
+                                                                                                                     "string_value": "etapa do funil de vendas no crm (última atualização)"}]}},
+                                                                                                     "label": {
+                                                                                                         "string_value": "Etapa do funil de vendas no CRM (última atualização)"}}}},
+                                                                        {"map_value": {"fields": {
+                                                                            "name": {"string_value": "cf_filhos"},
+                                                                            "default_field": {"bool_value": false},
+                                                                            "aliases": {
+                                                                                "array_value": {"value_type": "STRING",
+                                                                                                "values": [{
+                                                                                                               "string_value": "filhos"}]}},
+                                                                            "label": {"string_value": "Filhos?"}}}}, {
+                                                                            "map_value": {"fields": {"name": {
+                                                                                "string_value": "cf_plug_deal_pipeline"},
+                                                                                                     "default_field": {
+                                                                                                         "bool_value": false},
+                                                                                                     "aliases": {
+                                                                                                         "array_value": {
+                                                                                                             "value_type": "STRING",
+                                                                                                             "values": [
+                                                                                                                 {
+                                                                                                                     "string_value": "funil de vendas no crm (última atualização)"}]}},
+                                                                                                     "label": {
+                                                                                                         "string_value": "Funil de vendas no CRM (última atualização)"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_gvc_100k_cancelado"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "gvc 100k cancelado"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "GAV Vacation Club 100.00 pontos"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_gostam_de_viajar"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "gostam de viajar?"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Gostam de viajar?"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_http_qr_gavresorts_com_br_sorteiogavbb_regulamento_020"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "http://qr.gavresorts.com.br/sorteiogavbb/regulamento_0202100620.pdf"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "http://qr.gavresorts.com.br/SorteioGavBB/Regulamento_0202100620.pdf"}}}},
+                                                                        {"map_value": {"fields": {
+                                                                            "name": {"string_value": "cf_idade"},
+                                                                            "default_field": {"bool_value": false},
+                                                                            "aliases": {
+                                                                                "array_value": {"value_type": "STRING",
+                                                                                                "values": [{
+                                                                                                               "string_value": "idade"}]}},
+                                                                            "label": {"string_value": "Idade"}}}}, {
+                                                                            "map_value": {"fields": {"name": {
+                                                                                "string_value": "cf_idade_do_conjuge"},
+                                                                                                     "default_field": {
+                                                                                                         "bool_value": false},
+                                                                                                     "aliases": {
+                                                                                                         "array_value": {
+                                                                                                             "value_type": "STRING",
+                                                                                                             "values": [
+                                                                                                                 {
+                                                                                                                     "string_value": "idade do cônjuge"}]}},
+                                                                                                     "label": {
+                                                                                                         "string_value": "Idade do Cônjuge"}}}},
+                                                                        {"map_value": {"fields": {
+                                                                            "name": {"string_value": "cf_li_e_aceito"},
+                                                                            "default_field": {"bool_value": false},
+                                                                            "aliases": {
+                                                                                "array_value": {"value_type": "STRING",
+                                                                                                "values": [{
+                                                                                                               "string_value": "li e aceito"}]}},
+                                                                            "label": {"string_value": "Li e aceito"}}}},
+                                                                        {"map_value": {"fields": {
+                                                                            "name": {"string_value": "cf_moram_juntos"},
+                                                                            "default_field": {"bool_value": false},
+                                                                            "aliases": {
+                                                                                "array_value": {"value_type": "STRING",
+                                                                                                "values": [{
+                                                                                                               "string_value": "moram juntos?"}]}},
+                                                                            "label": {
+                                                                                "string_value": "Moram Juntos?"}}}}, {
+                                                                            "map_value": {"fields": {"name": {
+                                                                                "string_value": "cf_plug_lost_reason"},
+                                                                                                     "default_field": {
+                                                                                                         "bool_value": false},
+                                                                                                     "aliases": {
+                                                                                                         "array_value": {
+                                                                                                             "value_type": "STRING",
+                                                                                                             "values": [
+                                                                                                                 {
+                                                                                                                     "string_value": "motivo de perda no rd station crm"}]}},
+                                                                                                     "label": {
+                                                                                                         "string_value": "Motivo de Perda no RD Station CRM"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_nome_do_conjuge"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "nome do cônjuge"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Nome do Cônjuge"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_plug_contact_owner"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "nome do responsável pela oportunidade no crm (última atualização)"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Nome do responsável pela Oportunidade no CRM (última atualização)"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_numero_do_cupom_0"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "número do cupom"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Número do Cupom"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_numero_do_cupom"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "número do cupom"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Número do cupom"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_onde_voce_gostaria_de_ter_uma_casa_de_ferias"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "onde você gostaria de ter uma casa de férias?"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Onde você gostaria de ter uma casa de férias?"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_opcao_de_parcela"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "opção de parcela"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Opção de parcela"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_opcao_de_parcela_0"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "opção de parcela:"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Opção de parcela:"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_plug_opportunity_origin"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "origem da oportunidade no crm (última atualização)"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Origem da Oportunidade no CRM (última atualização)"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_para_onde_voce_gostaria_de_viajar_agora"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "para onde você gostaria de viajar agora?"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Para onde você gostaria de viajar agora?"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_plano_do_socio_tigrao"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "plano do sócio tigrão:"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Plano do Sócio Tigrão:"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_ponto_de_distribuicao"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "ponto de distribuição"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Ponto de Distribuição"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_posicao_que_quer_jogar"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "posição que quer jogar"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Posição que quer jogar"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_posicao_que_quer_jogar_2"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "posição que quer jogar 2"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Posição que quer jogar"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_possuem_residencia_de_ferias"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "possuem residência de férias?"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Possuem residência de férias?"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_possuem_residencia_propria"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "possuem residência própria?"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Possuem residência própria?"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_possui_residencia_propria"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "possui residência própria?"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Possui Residência própria?"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_profissao_do_conjuge"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "profissão do cônjuge"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Profissão do Cônjuge"}}}},
+                                                                        {"map_value": {"fields": {
+                                                                            "name": {"string_value": "cf_promotora"},
+                                                                            "default_field": {"bool_value": false},
+                                                                            "aliases": {
+                                                                                "array_value": {"value_type": "STRING",
+                                                                                                "values": [{
+                                                                                                               "string_value": "promotora"}]}},
+                                                                            "label": {"string_value": "Promotora"}}}}, {
+                                                                            "map_value": {"fields": {
+                                                                                "name": {"string_value": "cf_rrrr"},
+                                                                                "default_field": {"bool_value": false},
+                                                                                "aliases": {"array_value": {
+                                                                                    "value_type": "STRING", "values": [
+                                                                                        {"string_value": "rrrr"}]}},
+                                                                                "label": {"string_value": "prrr"}}}}, {
+                                                                            "map_value": {"fields": {"name": {
+                                                                                "string_value": "cf_qual_a_bandeira_do_cartao_de_credito_que_voce_prefere_us"},
+                                                                                                     "default_field": {
+                                                                                                         "bool_value": false},
+                                                                                                     "aliases": {
+                                                                                                         "array_value": {
+                                                                                                             "value_type": "STRING",
+                                                                                                             "values": [
+                                                                                                                 {
+                                                                                                                     "string_value": "qual a bandeira do cartão de crédito que você prefere usar?"}]}},
+                                                                                                     "label": {
+                                                                                                         "string_value": "Qual a bandeira do cartão de crédito que você prefere usar?"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_qual_a_bandeira_do_seu_cartao_de_credito"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "qual a bandeira do seu cartão de crédito?"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Qual a bandeira do seu cartão de crédito?"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_qual_a_marca_que_multiplica_sua_felicidade_e_te_leva_par"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "qual a marca que multiplica sua felicidade e te leva para conhecer o mundo?"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Qual a marca que MULTIPLICA SUA FELICIDADE e te leva para conhecer o mundo?"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_data_de_nascimento"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "data de nascimento"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Qual a sua data de nascimento?"}}}},
+                                                                        {"map_value": {"fields": {
+                                                                            "name": {"string_value": "cf_profissao"},
+                                                                            "default_field": {"bool_value": false},
+                                                                            "aliases": {
+                                                                                "array_value": {"value_type": "STRING",
+                                                                                                "values": [{
+                                                                                                               "string_value": "profissão"}]}},
+                                                                            "label": {
+                                                                                "string_value": "Qual a sua profissão?"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_qual_a_sua_profissao"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "qual a sua profissão?"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Qual a sua profissão?"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_qual_o_ano_do_seu_veiculo"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "qual o ano do seu veículo?"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Qual o ano do seu veículo?"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_empreendimento"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "empreendimento"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Qual o Empreendimento?"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_identificador_rescisao"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "identificador-rescisão"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "qual o Identificador?"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_qual_o_melhor_horario_para_falar_com_voce"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "qual o melhor horário para falar com você?"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Qual o melhor horário para falar com você?"}}}},
+                                                                        {"map_value": {"fields": {
+                                                                            "name": {"string_value": "cf_sexo"},
+                                                                            "default_field": {"bool_value": false},
+                                                                            "aliases": {
+                                                                                "array_value": {"value_type": "STRING",
+                                                                                                "values": [{
+                                                                                                               "string_value": "sexo"}]}},
+                                                                            "label": {
+                                                                                "string_value": "Qual o seu sexo?"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_valor_planejado_para_compra"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "valor planejado para compra"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Qual o valor você pretende investir?"}}}},
+                                                                        {"map_value": {"fields": {
+                                                                            "name": {"string_value": "cf_cpfcnpj"},
+                                                                            "default_field": {"bool_value": false},
+                                                                            "aliases": {
+                                                                                "array_value": {"value_type": "STRING",
+                                                                                                "values": [{
+                                                                                                               "string_value": "cpfcnpj"}]}},
+                                                                            "label": {
+                                                                                "string_value": "Qual seu CpfCnpj?"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_qual_seu_veiculo_modelo_marca_e_ano"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "qual seu veículo (modelo, marca e ano)?"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Qual seu veículo (Modelo e Marca)?"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_plug_opportunity_score"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "qualificação da oportunidade no crm (última atualização)"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Qualificação da Oportunidade no CRM (última atualização)"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_aquisicao_do_imovel"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "aquisição do imóvel"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Quando pretende adquirir um imóvel?"}}}},
+                                                                        {"map_value": {"fields": {
+                                                                            "name": {"string_value": "cf_cotas_ativas"},
+                                                                            "default_field": {"bool_value": false},
+                                                                            "aliases": {
+                                                                                "array_value": {"value_type": "STRING",
+                                                                                                "values": [{
+                                                                                                               "string_value": "cotas ativas"}]}},
+                                                                            "label": {
+                                                                                "string_value": "Quantidade de cotas ativas"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_cotas_ativas_ser"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "cotas ativas ser"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Quantidade de cotas ativas do SER"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_cotas_ativas_spm"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "cotas ativas spm"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Quantidade de cotas ativas do SPM"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_cotas_ativas_spr"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "cotas ativas spr"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Quantidade de cotas ativas do SPR"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_cotas_quitadas"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "cotas quitadas"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Quantidade de cotas quitadas"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_cotas_quitadas_ser"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "cotas quitadas ser"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Quantidade de cotas quitadas do SER"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_cotas_quitadas_spm"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "cotas quitadas spm"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Quantidade de cotas quitadas do SPM"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_cotas_quitadas_spr"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "cotas quitadas spr"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Quantidade de cotas quitadas do SPR"}}}},
+                                                                        {"map_value": {"fields": {
+                                                                            "name": {"string_value": "cf_quem_indicou"},
+                                                                            "default_field": {"bool_value": false},
+                                                                            "aliases": {
+                                                                                "array_value": {"value_type": "STRING",
+                                                                                                "values": [{
+                                                                                                               "string_value": "quem indicou"}]}},
+                                                                            "label": {
+                                                                                "string_value": "Quem indicou"}}}}, {
+                                                                            "map_value": {"fields": {"name": {
+                                                                                "string_value": "cf_quero_receber_o_gav_news"},
+                                                                                                     "default_field": {
+                                                                                                         "bool_value": false},
+                                                                                                     "aliases": {
+                                                                                                         "array_value": {
+                                                                                                             "value_type": "STRING",
+                                                                                                             "values": [
+                                                                                                                 {
+                                                                                                                     "string_value": "quero receber o gav news"}]}},
+                                                                                                     "label": {
+                                                                                                         "string_value": "Quero receber o GAV News"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_quero_receber_o_gav_news_0"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "quero receber o gav news"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Quero Receber o GAV News"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_eu_quero_receber_o_gav_news"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "eu quero receber o gav news"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Quero receber o GAV News"}}}},
+                                                                        {"map_value": {"fields": {
+                                                                            "name": {"string_value": "cf_renda"},
+                                                                            "default_field": {"bool_value": false},
+                                                                            "aliases": {
+                                                                                "array_value": {"value_type": "STRING",
+                                                                                                "values": [{
+                                                                                                               "string_value": "renda"}]}},
+                                                                            "label": {"string_value": "Renda"}}}}, {
+                                                                            "map_value": {"fields": {"name": {
+                                                                                "string_value": "cf_renda_liquida_do_casal"},
+                                                                                                     "default_field": {
+                                                                                                         "bool_value": false},
+                                                                                                     "aliases": {
+                                                                                                         "array_value": {
+                                                                                                             "value_type": "STRING",
+                                                                                                             "values": [
+                                                                                                                 {
+                                                                                                                     "string_value": "renda líquida do casal"}]}},
+                                                                                                     "label": {
+                                                                                                         "string_value": "Renda líquida do casal"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_renda_liquida_do_do_casal"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "renda líquida do do casal"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Renda Líquida do do casal"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_renda_mensal_da_familia"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "renda mensal da família"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Renda mensal da família"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_seu_no_instagram"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "seu @ no instagram"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Seu @ no Instagram"}}}},
+                                                                        {"map_value": {"fields": {
+                                                                            "name": {"string_value": "cf_sua_mensagem"},
+                                                                            "default_field": {"bool_value": false},
+                                                                            "aliases": {
+                                                                                "array_value": {"value_type": "STRING",
+                                                                                                "values": [{
+                                                                                                               "string_value": "sua mensagem"}]}},
+                                                                            "label": {
+                                                                                "string_value": "Sua mensagem"}}}}, {
+                                                                            "map_value": {"fields": {"name": {
+                                                                                "string_value": "cf_tem_filhos"},
+                                                                                                     "default_field": {
+                                                                                                         "bool_value": false},
+                                                                                                     "aliases": {
+                                                                                                         "array_value": {
+                                                                                                             "value_type": "STRING",
+                                                                                                             "values": [
+                                                                                                                 {
+                                                                                                                     "string_value": "tem filhos?"}]}},
+                                                                                                     "label": {
+                                                                                                         "string_value": "Tem filhos?"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_tempo_de_uniao_0"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "tempo de união"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Tempo de união"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_tempo_de_uniao"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "tempo de união"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Tempo de União"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_utilizam_cheque"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "utilizam cheque?"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Utilizam cheque?"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_gvc_100k_ativo"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "gvc 100k ativo"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Vacation Club 100.000 pontos ativo"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_gvc_150k_cancelado"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "gvc 150k cancelado"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Vacation Club 150.000 cancelado"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_gvc_150k_ativo"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "gvc 150k ativo"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Vacation Club 150.000 pontos ativo"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_gvc_50k_ativo"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "gvc 50k ativo"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Vacation Club 50.000 pontos ativo"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_gvc_50k_cancelado"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "gvc 50k cancelado"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Vacation Club 50.000 pontos cancelado"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_plug_opportunity_value"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "valor total da oportunidade no crm (última atualização)"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Valor total da Oportunidade no CRM (última atualização)"}}}},
+                                                                        {"map_value": {"fields": {"name": {
+                                                                            "string_value": "cf_aluguel_ou_compra"},
+                                                                                                  "default_field": {
+                                                                                                      "bool_value": false},
+                                                                                                  "aliases": {
+                                                                                                      "array_value": {
+                                                                                                          "value_type": "STRING",
+                                                                                                          "values": [{
+                                                                                                                         "string_value": "aluguel ou compra?"}]}},
+                                                                                                  "label": {
+                                                                                                      "string_value": "Você deseja um imóvel para:"}}}},
+                                                                        {"map_value": {"fields": {
+                                                                            "name": {"string_value": "cf_e_casado_a"},
+                                                                            "default_field": {"bool_value": false},
+                                                                            "aliases": {
+                                                                                "array_value": {"value_type": "STRING",
+                                                                                                "values": [{
+                                                                                                               "string_value": "é casado(a)?"}]}},
+                                                                            "label": {
+                                                                                "string_value": "É casado(a)?"}}}}, {
+                                                                            "map_value": {"fields": {"name": {
+                                                                                "string_value": "cf_ultima_viagem"},
+                                                                                                     "default_field": {
+                                                                                                         "bool_value": false},
+                                                                                                     "aliases": {
+                                                                                                         "array_value": {
+                                                                                                             "value_type": "STRING",
+                                                                                                             "values": [
+                                                                                                                 {
+                                                                                                                     "string_value": "última viagem"}]}},
+                                                                                                     "label": {
+                                                                                                         "string_value": "Última Viagem"}}}}]}},
+                                         "source_type_key": {
+                                             "string_value": "exports_dashboard.types.segmentation_list"},
+                                         "conversor_class": {"string_value": "Export::Conversor::ExcelCSV"},
+                                         "notifier_params": {"map_value": {"fields": {"export_details": {"map_value": {
+                                             "fields": {
+                                                 "required_by": {"string_value": "thais.preda@gavresorts.com.br"},
+                                                 "export_content_name": {"string_value": "Leads (estágio no funil)"},
+                                                 "expires_at": {"string_value": "30/08/2023"},
+                                                 "created_at": {"string_value": "23/08/2023"}}}}, "subject": {
+                                             "string_value": "Conversões de Leads - Leads (estágio no funil)"},
+                                                                                      "recipient": {
+                                                                                          "string_value": "thais.preda@gavresorts.com.br"}}}},
+                                         "processor_class": {"string_value": "SegmentationList::ExportProcessor"}}}},
+                                 "created_at": {"string_value": "2023-08-23T11:04:18.522-03:00"}}}}, "lead_ids": {
+        "array_value": {"value_type": "INT", "values": [{"int_value": "2690177521"}, {"int_value": "2720495066"},
+                                                        {"int_value": "2742502963"}, {"int_value": "2742503640"},
+                                                        {"int_value": "2742504085"}, {"int_value": "2742509611"},
+                                                        {"int_value": "2742509770"}, {"int_value": "2742510318"},
+                                                        {"int_value": "2742510768"}, {"int_value": "2742511346"},
+                                                        {"int_value": "2742511371"}, {"int_value": "2742511583"},
+                                                        {"int_value": "2742511587"}, {"int_value": "2742512389"},
+                                                        {"int_value": "2742515245"}, {"int_value": "2742516751"},
+                                                        {"int_value": "2742517193"}, {"int_value": "2742517302"},
+                                                        {"int_value": "2742517513"}, {"int_value": "2742517764"},
+                                                        {"int_value": "2742517780"}, {"int_value": "2742517952"},
+                                                        {"int_value": "2742522771"}, {"int_value": "2742528477"},
+                                                        {"int_value": "2742528957"}, {"int_value": "2742529124"},
+                                                        {"int_value": "2747393589"}, {"int_value": "2747395351"},
+                                                        {"int_value": "2747436346"}, {"int_value": "2751285661"},
+                                                        {"int_value": "2773421017"}, {"int_value": "2773422838"},
+                                                        {"int_value": "2773422844"}, {"int_value": "2773423194"},
+                                                        {"int_value": "2792376003"}, {"int_value": "2792394760"},
+                                                        {"int_value": "2803460578"}, {"int_value": "2803460586"},
+                                                        {"int_value": "2803460696"}, {"int_value": "2818824308"},
+                                                        {"int_value": "2818824497"}, {"int_value": "2818824537"},
+                                                        {"int_value": "2818824550"}, {"int_value": "2818824642"},
+                                                        {"int_value": "2818824855"}, {"int_value": "2818824882"},
+                                                        {"int_value": "2818824949"}, {"int_value": "2818825121"},
+                                                        {"int_value": "2818825137"}, {"int_value": "2818825161"},
+                                                        {"int_value": "2818825172"}, {"int_value": "2818825206"},
+                                                        {"int_value": "2818825228"}, {"int_value": "2818825248"},
+                                                        {"int_value": "2818825308"}, {"int_value": "2818825314"},
+                                                        {"int_value": "2818825340"}, {"int_value": "2818825350"},
+                                                        {"int_value": "2818825362"}, {"int_value": "2818825366"},
+                                                        {"int_value": "2818825378"}, {"int_value": "2818825386"},
+                                                        {"int_value": "2818825389"}, {"int_value": "2818825401"},
+                                                        {"int_value": "2818825402"}, {"int_value": "2818825404"},
+                                                        {"int_value": "2818825405"}, {"int_value": "2818825427"},
+                                                        {"int_value": "2818825440"}, {"int_value": "2818825491"},
+                                                        {"int_value": "2818825517"}, {"int_value": "2818825680"},
+                                                        {"int_value": "2818825702"}, {"int_value": "2818825704"},
+                                                        {"int_value": "2818825706"}, {"int_value": "2818825721"},
+                                                        {"int_value": "2818825726"}, {"int_value": "2818825736"},
+                                                        {"int_value": "2818825749"}, {"int_value": "2818825756"},
+                                                        {"int_value": "2818825826"}, {"int_value": "2818825865"},
+                                                        {"int_value": "2818825903"}, {"int_value": "2818825981"},
+                                                        {"int_value": "2818826027"}, {"int_value": "2818826146"},
+                                                        {"int_value": "2818826153"}, {"int_value": "2818826159"},
+                                                        {"int_value": "2818826173"}, {"int_value": "2818826215"},
+                                                        {"int_value": "2818826417"}, {"int_value": "2818826450"},
+                                                        {"int_value": "2818826939"}, {"int_value": "2818827037"},
+                                                        {"int_value": "2818827222"}, {"int_value": "2818827241"},
+                                                        {"int_value": "2818827427"}, {"int_value": "2818827712"},
+                                                        {"int_value": "2818827769"}, {"int_value": "2818827856"},
+                                                        {"int_value": "2818827880"}, {"int_value": "2818829313"},
+                                                        {"int_value": "2818829343"}, {"int_value": "2818829408"},
+                                                        {"int_value": "2818829410"}, {"int_value": "2818829640"},
+                                                        {"int_value": "2818829675"}, {"int_value": "2818830982"},
+                                                        {"int_value": "2818831561"}, {"int_value": "2818831651"},
+                                                        {"int_value": "2818831728"}, {"int_value": "2818831976"},
+                                                        {"int_value": "2818832284"}, {"int_value": "2818832417"},
+                                                        {"int_value": "2824654803"}, {"int_value": "2856214866"},
+                                                        {"int_value": "2950975426"}, {"int_value": "2992419489"},
+                                                        {"int_value": "2993987993"}, {"int_value": "2993988204"},
+                                                        {"int_value": "2993988217"}, {"int_value": "2993988221"},
+                                                        {"int_value": "2993988225"}, {"int_value": "2993988227"},
+                                                        {"int_value": "2993988228"}, {"int_value": "2993988250"},
+                                                        {"int_value": "2993988252"}, {"int_value": "2993988253"},
+                                                        {"int_value": "2993988254"}]}}}}
